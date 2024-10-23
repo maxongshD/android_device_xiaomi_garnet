@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "garnet-random/android_device_xiaomi_garnet-prebuilt",
+    "target_path": "device/xiaomi/garnet-prebuilt",
+    "revision": "lineage-20" 
+  },
+  {
+    "repository": "garnet-random/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "revision": "lineage-20"
+  },
+  {
+    "repository": "garnet-random/proprietary_vendor_xiaomi_garnet",
+    "target_path": "vendor/xiaomi/garnet",
+    "revision": "lineage-20"
+  }
+]
