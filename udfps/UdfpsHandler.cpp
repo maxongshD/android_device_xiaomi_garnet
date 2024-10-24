@@ -190,6 +190,24 @@ class XiaomiGarnetUdfpsHander : public UdfpsHandler {
     void cancel() {
         LOG(INFO) << __func__;
         setFingerDown(false);
+           }
+    }
+
+    void cancel() {
+        LOG(INFO) << __func__;
+        setFingerDown(false);
+    }
+
+    void preEnroll() {
+        LOG(DEBUG) << __func__;
+    }
+
+    void enroll() {
+        LOG(DEBUG) << __func__;
+    }
+
+    void postEnroll() {
+        LOG(DEBUG) << __func__;
     }
 
   private:
