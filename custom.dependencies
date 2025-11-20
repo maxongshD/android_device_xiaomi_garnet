@@ -1,0 +1,33 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_garnet-miuicamera",
+    "target_path": "device/xiaomi/garnet-miuicamera"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-23.2"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm7435",
+    "target_path": "kernel/xiaomi/sm7435"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm7435-devicetrees",
+    "target_path": "kernel/xiaomi/sm7435-devicetrees"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm7435-modules",
+    "target_path": "kernel/xiaomi/sm7435-modules"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_garnet",
+    "target_path": "vendor/xiaomi/garnet"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_garnet-miuicamera",
+    "target_path": "vendor/xiaomi/garnet-miuicamera"
+  }
+]
