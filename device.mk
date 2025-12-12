@@ -270,13 +270,12 @@ $(foreach sku, CN GL JP, \
 PRODUCT_PACKAGES += \
     ApertureOverlayGarnet \
     CarrierConfigOverlayGarnet \
+    CustomSettingsOverlayGarnet \
+    CustomSystemUIOverlayGarnet \
     FrameworkOverlayGarnet \
     FrameworkOverlayGarnetGLEsim \
     FrameworkOverlayGarnetJPEsim \
-    Launcher3DeviceOverlayGarnet \
-    LineageSDKOverlayGarnet \
-    LineageSettingsOverlayGarnet \
-    LineageSystemUIOverlayGarnet \
+    NexusLauncherOverlayGarnet \
     NfcOverlayGarnet \
     SettingsOverlayGarnet \
     SettingsProviderOverlayGarnetPoco \

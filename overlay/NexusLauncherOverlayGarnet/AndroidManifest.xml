@@ -4,8 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.settings.lineage.overlay.garnet">
-    <overlay android:targetPackage="com.android.settings"
+          package="com.google.android.apps.nexuslauncher.overlay.garnet">
+    <overlay android:targetPackage="com.google.android.apps.nexuslauncher"
              android:isStatic="true"
-             android:priority="1000" />
+             android:priority="150" />
 </manifest>
