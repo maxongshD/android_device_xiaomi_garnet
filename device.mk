@@ -273,6 +273,7 @@ PRODUCT_PACKAGES += \
     FrameworkOverlayGarnet \
     FrameworkOverlayGarnetGLEsim \
     FrameworkOverlayGarnetJPEsim \
+    Launcher3DeviceOverlayGarnet \
     LineageSDKOverlayGarnet \
     LineageSettingsOverlayGarnet \
     LineageSystemUIOverlayGarnet \
