@@ -73,6 +73,18 @@ on fs
     mkdir /mnt/vendor/persist/qca6490/ 0700 system system
     chmod 0666 /dev/xlog
 
+on fs && property:ro.boot.hwc=CN
+    mount_all /vendor/etc/fstab.modem.cust --early
+
+on fs && property:ro.boot.hwc=IN
+    mount_all /vendor/etc/fstab.modem.cust --early
+
+on fs && property:ro.boot.hwc=GL
+    mount_all /vendor/etc/fstab.modem --early
+
+on fs && property:ro.boot.hwc=JP
+    mount_all /vendor/etc/fstab.modem --early
+
 on fs && property:ro.boot.product.vendor.sku=taro
     mkdir /mnt/vendor/spunvm 0660 system system
     wait /dev/block/bootdevice/by-name/spunvm
@@ -87,6 +99,18 @@ on late-fs
     wait_for_prop hwservicemanager.ready true
     #exec_start wait_for_keymaster
     mount_all --late
+
+on late-fs && property:ro.boot.hwc=CN
+    mount_all /vendor/etc/fstab.modem.cust --late
+
+on late-fs && property:ro.boot.hwc=IN
+    mount_all /vendor/etc/fstab.modem.cust --late
+
+on late-fs && property:ro.boot.hwc=GL
+    mount_all /vendor/etc/fstab.modem --late
+
+on late-fs && property:ro.boot.hwc=JP
+    mount_all /vendor/etc/fstab.modem --late
 
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
